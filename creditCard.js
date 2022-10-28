@@ -88,6 +88,8 @@ function onInputChange(input, newValue) {
         logo.src = "visa.svg"
     } else if (firstFour.startsWith("5")) {
         logo.src = "mastercard.svg"
+    } else {
+      logo.src = "mastercard.svg" 
     }
 }
 
